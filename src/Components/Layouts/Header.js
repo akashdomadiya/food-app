@@ -20,6 +20,7 @@ const Header = () => {
       <Navbar
         collapseOnSelect
         expand="lg"
+        className={`${nav === true ? "sticky" : ""}`}
       >
         <Container>
           <Navbar.Brand href="#home">
@@ -50,7 +51,7 @@ const Header = () => {
               </Nav.Link>
               <Nav.Link as={Link} to="/">
                 <div className="cart">
-                  <i className="bi bi-bag fs-5"></i>
+                  <i class="bi bi-bag fs-5"></i>
                   <em className="roundpoint">2</em>
                 </div>
               </Nav.Link>
