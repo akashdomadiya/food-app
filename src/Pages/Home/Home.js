@@ -21,11 +21,14 @@ const Home = () => {
 
         {/* Home Section Menu */}
         <Section3 />
-        
+
         {/* Home Section Promotion */}
         <Section4 />
+        {/* Home Section Shop */}
+        <Section5 />
 
-       
+        {/* Home Section Blog
+        <Section6 /> */}
       </Layout>
     </>
   );
